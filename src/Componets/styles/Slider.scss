@@ -1,0 +1,42 @@
+.banner-container{
+    width: 95%;
+    height: 500px;
+    // min-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    .Banner-ineer{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: rgb(236, 244, 251);
+        font-size:35px;
+        position: relative;
+        align-items: center;
+    
+    }
+    .Left{
+        position: absolute;
+        bottom: 50%;
+        cursor: pointer;
+        
+        &:hover{
+            color:black ;
+        }        
+    }
+    .right{
+        position: absolute;
+        bottom: 50%;
+        right: 0;  
+        cursor: pointer;
+        &:hover{
+            color:black ;
+        }  
+        
+    }
+    
+    
+}

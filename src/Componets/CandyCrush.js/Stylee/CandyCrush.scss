@@ -1,0 +1,44 @@
+.main{
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    align-items: center;
+    // justify-content: center;
+    object-fit: cover;
+    height: 100%;
+    background: linear-gradient(
+        90deg,
+        rgb(5, 5, 5) 0%,
+        rgb(110, 208, 197) 100%
+      );
+    background-image: url('./candyback.jpg');
+    background-image: url('./candyback.jpg'),linear-gradient(
+        90deg,
+        rgb(10, 10, 10) 0%,
+        rgb(110, 208, 197) 100%
+      );
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .game{
+        width: 560px;
+        height: 560px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .game img{
+        width: 70px;
+        height: 70px;
+    }
+
+    .h{
+        
+        top :80px; 
+        padding: 10px;
+        border-bottom: 1px solid gray;
+        margin-bottom: 10px;
+    }
+
+}
+

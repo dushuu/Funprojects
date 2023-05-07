@@ -1,0 +1,42 @@
+.container{
+    
+    width: 100vw;
+    display: flex;
+    border-bottom: 1px solid grey;
+    // padding: 20px;
+    flex-direction:  row;
+    align-items: flex-end;
+    justify-content: space-between;
+    // background: linear-gradient(
+    //     90deg,
+    //     rgb(163, 208, 224) 0%,
+    //     rgb(110, 208, 197) 100%
+    //   );
+
+    .links_of_gamaes{
+        display: flex;
+        position: absolute;
+        left: 1200px;        
+        flex: 5%;
+    }
+
+    .link{
+        cursor: pointer;
+        padding: 0px 7px 0px 7px ;
+    
+
+        &:hover{
+            color:  linear-gradient(
+                90deg,
+                rgb(163, 208, 224) 0%,
+                rgb(110, 208, 197) 100%
+              );
+        }
+    }
+    h2{
+        cursor: pointer;
+        margin-left: 60px;
+    }
+   
+   
+}
